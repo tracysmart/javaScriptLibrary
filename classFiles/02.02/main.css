@@ -1,0 +1,26 @@
+/*font-family: 'Economica', sans-serif;*/
+
+body {
+    background-color: #FBFBFB;
+  }
+  
+.headers {
+    font-family: 'Dosis', sans-serif; 
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    color: #383B3f;
+}
+
+.list {
+    font-family: 'Economica', sans-serif;
+    font-size: 18px;
+}
+
+.helps {
+    width: 500 px;
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #7FC0FF;     
+}
