@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fetch Challenge</title>
+</head>
+<body>
+    
+</body>
+<script>
+fetch('https://www.balldontlie.io/api/v1/players')
+      .then(res => res.json())
+      .then(json => showToConsole(json.data))
+
+    function showToConsole(players){
+      let body = document.getElementsByTagName('body')[0];
+      players.forEach((player) => {
+        let p = document.createElement('p');
+        p.innerText = player.first_name;
+        body.appendChild(p);
+      })
+    }
+</script>
+</html>

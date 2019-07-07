@@ -11,7 +11,7 @@ let hotChocolate = () => {
     return 'hot chocolate is king';
 }
 
-console.log(hotChocolate();
+console.log(hotChocolate());
 
 let animals = (kittens, puppies) => {return `I have ${kittens} cat(s) and ${puppies} dog(s)`};
 

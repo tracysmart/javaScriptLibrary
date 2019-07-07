@@ -45,4 +45,9 @@ let arr = ['wonderful', false, ['red', 'green', 'blue'], {key: 'Patches'}, 1960]
 // output: key1, key2, key3, key4, key5
 
 let obj1 = {key1: 'yeah!', key2: 1150, key3: true, key4: [1,2,3,4], key5: {innerKey: 'mind blown!'}};
-console.log(obj1.keys);
+let keys = Object.keys(obj1); //Object.keys gives us the keys in an array. //keys is an array
+console.log(keys);
+
+for (let val of keys){
+    console.log(val);
+}

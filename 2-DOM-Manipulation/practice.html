@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DOM Stuff</title>
+</head>
+<body>
+<!-- <h1>Hello World</h1>  --> 
+<p id="testParagraph">Sample Text</P>
+<p class='sampleClass'>This paragraph has the class of 'sampleClass'.</P>
+
+<script>
+
+let para = document.getElementById('testParagraph');
+para.style.color = "blue";
+console.log(para.style.color);
+console.log(document.querySelectorAll('p.sampleClass'));
+document.querySelectorAll('p.sampleClass')[0].innerHTML = '<i>My text has changed!</i>';
+</script>
+
+
+</body>
+
+</html>
